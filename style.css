@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+.user-name {
+  color: orange;
+}
+
+.news-image {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.news-container { 
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 16px;
+  font-family: Poppins;
+  gap: 10px;
+  max-width: 450px;
+}
+
+@media (min-width: 400px) {
+  .user-container {
+    display: flex;
+  }
+}
+
+body {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}
+
+
